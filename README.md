@@ -23,13 +23,14 @@ VS Code will build the image from the local `Dockerfile` and start the container
 
 ### Base image — `BASE_IMAGE`
 
-The Dockerfile accepts a `BASE_IMAGE` build argument so you can choose the base OS without editing the file. The default is `debian:trixie-slim`, but two additional images are officially supported:
+The Dockerfile accepts a `BASE_IMAGE` build argument so you can choose the base OS without editing the file. Technically, any Debian-based image is supported. Below are some example configurations:
 
 | Value | Description |
 |---|---|
 | `debian:trixie-slim` | Minimal Debian (default) |
 | `python:3.14-slim` | Debian slim with Python 3.14 pre-installed |
 | `golang:1.26-trixie` | Debian trixie with Go 1.26 pre-installed |
+| `node:lts-trixie-slim` | Debian slim with Node.js LTS pre-installed |
 
 To switch, edit the `BASE_IMAGE` value in `.devcontainer/devcontainer.json`:
 
