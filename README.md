@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **This repository has moved to [https://git.giovannidemizio.eu/Giovanni-De-Mizio/claude-code-eu](https://git.giovannidemizio.eu/Giovanni-De-Mizio/claude-code-eu).**
+> This copy is no longer maintained.
+>
+> The new version drops Ollama and makes Claude Code run on European providers, because the [CLOUD Act](https://it.wikipedia.org/wiki/CLOUD_Act) sucks.
+
+
 # Claude CLI + Ollama Dev Container
 
 A containerized development environment integrating **Claude CLI** and **Ollama**, with support for the [Vercel AI Gateway](https://ai-gateway.vercel.sh) to use multiple LLM providers and models.
